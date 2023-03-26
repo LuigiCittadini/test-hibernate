@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="testEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="testModels.jar" deploy-path="/lib" handle="module:/resource/testModels/testModels">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="testDB.jar" deploy-path="/lib" handle="module:/resource/testDB/testDB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="testEJB.jar" deploy-path="/" handle="module:/resource/testEJB/testEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="testWEB.war" deploy-path="/" handle="module:/resource/testWEB/testWEB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="testCOMMON.jar" deploy-path="/lib" handle="module:/resource/testCOMMON/testCOMMON">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
